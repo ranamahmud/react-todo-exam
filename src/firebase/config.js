@@ -3,13 +3,13 @@ import "@firebase/auth";
 import "@firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyChGSIFvOYlSIShLdJLhvM4_OBEM9GB92U",
-  authDomain: "exam-cf33e.firebaseapp.com",
-  databaseURL: "https://exam-cf33e.firebaseio.com",
-  projectId: "exam-cf33e",
-  storageBucket: "exam-cf33e.appspot.com",
-  messagingSenderId: "812676132958",
-  appId: "1:812676132958:web:deaacf6d9779e778d244cf",
+  apiKey: "AIzaSyCqNdiyZAJsHaQku_bxtqSOFTaQqIQ_n7Q",
+  authDomain: "todolist-755a9.firebaseapp.com",
+  databaseURL: "https://todolist-755a9.firebaseio.com",
+  projectId: "todolist-755a9",
+  storageBucket: "todolist-755a9.appspot.com",
+  messagingSenderId: "225178634603",
+  appId: "1:225178634603:web:6f3113806b6319f72ee42e"
 };
 
 if (!firebase.apps.length) {

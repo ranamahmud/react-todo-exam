@@ -4,10 +4,6 @@ import { StyleSheet, Text, View } from 'react-native';
 import { firebase } from './src/firebase/config'
 
 export default function App() {
-  React.useEffect(() => {
-    firebase
-      .auth().createUserWithEmailAndPassword("saad@tst.com", "password")
-  }, [])
   return (
     <View style={styles.container}>
       <Text>Open up App.js to start working on your app!</Text>
